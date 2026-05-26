@@ -1,216 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gift Zone Watches</title>
-
-  <link rel="stylesheet" href="style.css"/>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Gift Zone Watches | Premium Luxury Timepieces UAE</title>
+    <meta name="description" content="Discover exceptional luxury watches from the world's most prestigious brands. Authentic, curated, and delivered to your door in the UAE.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-<header class="header">
-
-  <div class="logo">
-    GIFT ZONE WATCHES
-  </div>
-
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#shop">Shop</a>
-    <a href="#about">About</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-</header>
-
-<section class="hero" id="home">
-
-  <div class="overlay"></div>
-
-  <div class="hero-content">
-
-    <span class="badge">
-      Affordable Luxury Watches
-    </span>
-
-    <h1>
-      Luxury Style <br>
-      Without Luxury Prices
-    </h1>
-
-    <p>
-      Premium watches curated for modern UAE fashion.
-      Elegant, minimal and timeless.
-    </p>
-
-    <div class="hero-buttons">
-
-      <a href="#shop" class="btn gold">
-        Explore Collection
-      </a>
-
-      <a
-      href="https://wa.me/971508309035"
-      target="_blank"
-      class="btn dark">
-
-      WhatsApp Us
-      </a>
-
-    </div>
-
-  </div>
-
-</section>
-
-<section class="section" id="shop">
-
-  <div class="section-top">
-
-    <h2>Featured Watches</h2>
-
-    <p>
-      Curated luxury-inspired collection.
-    </p>
-
-  </div>
-
-  <div class="products" id="products"></div>
-
-</section>
-
-<section class="banner">
-
-  <div class="banner-content">
-
-    <h2>
-      Timeless Elegance
-    </h2>
-
-    <p>
-      Crafted for modern style and confidence.
-    </p>
-
-  </div>
-
-</section>
-
-<section class="section about" id="about">
-
-  <div class="about-image">
-
-    <img
-    src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop"
-    alt="watch">
-
-  </div>
-
-  <div class="about-content">
-
-    <span>ABOUT US</span>
-
-    <h2>
-      Gift Zone Watches
-    </h2>
-
-    <p>
-      Located inside Lulu Hypermarket – Al Falah Plaza, Al Ain UAE,
-      Gift Zone Watches offers premium-looking watches at affordable prices.
-    </p>
-
-    <p>
-      We focus on elegant modern aesthetics for men and women.
-    </p>
-
-  </div>
-
-</section>
-
-<section class="section" id="reviews">
-
-  <div class="section-top">
-
-    <h2>Customer Reviews</h2>
-
-  </div>
-
-  <div class="reviews">
-
-    <div class="review">
-
-      <h3>Ahmed</h3>
-
-      <p>
-        Amazing quality and premium feel.
-      </p>
-
-    </div>
-
-    <div class="review">
-
-      <h3>Sarah</h3>
-
-      <p>
-        Looks way more expensive than the price.
-      </p>
-
-    </div>
-
-    <div class="review">
-
-      <h3>Faisal</h3>
-
-      <p>
-        Best affordable watch collection in Al Ain.
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
-
-<section class="section contact" id="contact">
-
-  <div class="section-top">
-
-    <h2>Contact Us</h2>
-
-  </div>
-
-  <p>
-    Lulu Hypermarket – Al Falah Plaza, Al Ain, UAE
-  </p>
-
-  <p class="phone">
-    +971 50 830 9035
-  </p>
-
-  <a
-  href="https://wa.me/971508309035"
-  target="_blank"
-  class="btn gold">
-
-  Message on WhatsApp
-  </a>
-
-</section>
-
-<footer>
-
-  <p>
-    © 2026 Gift Zone Watches
-  </p>
-
-</footer>
-
-<script src="script.js"></script>
-
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">GIFT<span>ZONE</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="admin-login.html">Admin</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=1920&h=1080&fit=crop" alt="Luxury Watch" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-badge fade-up">Since 2010</div>
+            <h1 class="fade-up">Timeless <span class="gold-text">Elegance</span></h1>
+            <p class="fade-up">Discover exceptional timepieces from the world's most prestigious watchmakers. Curated for discerning collectors in the UAE.</p>
+            <div class="fade-up">
+                <a href="shop.html" class="btn btn-primary">Shop Collection →</a>
+                <a href="https://wa.me/971500000000" target="_blank" class="btn btn-secondary" style="margin-left: 16px;">WhatsApp Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 48px;">
+                <span class="hero-badge" style="color: var(--gold-primary);">Curated Collection</span>
+                <h2>Featured Timepieces</h2>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 16px auto 0;">Each watch in our collection has been carefully selected for its craftsmanship, heritage, and timeless appeal.</p>
+            </div>
+            <div class="product-grid" id="featuredProducts"></div>
+        </div>
+    </section>
+
+    <!-- Brand Story -->
+    <section class="section" style="background: var(--surface);">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&h=600&fit=crop" alt="Brand Story" style="width: 100%; height: auto;">
+                </div>
+                <div>
+                    <h2>A Legacy of Excellence</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 24px;">Since our founding in Dubai, Gift Zone Watches has been dedicated to bringing the world's finest timepieces to discerning collectors across the UAE. Our passion for horology drives us to curate exceptional pieces from the most prestigious maisons.</p>
+                    <p style="color: var(--text-muted); margin-bottom: 32px;">Every watch in our collection undergoes rigorous authentication, ensuring that when you purchase from Gift Zone, you receive nothing less than perfection.</p>
+                    <a href="#about" class="btn btn-secondary">Discover Our Story →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 48px;">
+                <h2>What Our Clients Say</h2>
+            </div>
+            <div class="testimonial-grid" id="testimonials"></div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="section">
+        <div class="container" style="text-align: center;">
+            <h2>Begin Your Journey</h2>
+            <p style="color: var(--text-muted); margin-bottom: 32px;">Our experts are ready to assist you in finding the perfect timepiece.</p>
+            <a href="https://wa.me/971500000000" target="_blank" class="btn btn-primary" style="background: #25D366;">💬 Chat on WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h4>GIFT ZONE WATCHES</h4>
+                    <p style="color: var(--text-muted);">Premium luxury timepieces curated for discerning collectors in the UAE.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <a href="shop.html">Shop</a>
+                    <a href="#about">About Us</a>
+                    <a href="#contact">Contact</a>
+                    <a href="admin-login.html">Admin Access</a>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <a href="https://wa.me/971500000000">+971 50 000 0000</a>
+                    <a href="mailto:info@giftzone.ae">info@giftzone.ae</a>
+                    <p style="color: var(--text-muted); margin-top: 16px;">Dubai, United Arab Emirates</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
 </body>
-      </html>
+</html>
